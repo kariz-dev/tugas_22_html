@@ -1,0 +1,58 @@
+<!-- Tugas 22 HTML -->
+<!-- Muhammad Rizwan -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Internal Css -->
+    <style> 
+        legend {
+            font-size: large;
+            margin-bottom: 20px;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        label {
+            display: inline-block; /* memberi spasi antara label dan input agar rapih */
+            width: 120px;
+        }
+    </style>
+    <title>Tugas 22 HTML</title>
+</head>
+<body>
+
+    <h1>Napak Tilas</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Form</legend>
+            <div><label for="">Nama</label> : <input type="text" placeholder="Nama lengkap"></div>
+            <div><label for="">Username</label> : <input type="text" placeholder="Username"></div>
+            <div><label for="">Email</label> : <input type="email" placeholder="Your Email"></div>
+            <div><label for="">Password</label> : <input type="password" placeholder="Password"></div>
+            <div><label for="">Alamat Web</label> : <input type="url" placeholder="Masukan URL Web"></div>
+            <div><label for="">Tanggal Lahir</label> : <input type="date"></div>
+            <div><label for="">Umur</label> : <input type="number"></div>
+            <div><label for="">Janis Kelamin</label> : <input type="radio">Laki-laki <input type="radio">Perempuan</div>
+            <div><label for="">Agama</label> : 
+                <select>
+                    <option>Islam</option>
+                    <option>Keristen</option>
+                    <option>Katolik</option>
+                    <option>Hindu</option>
+                    <option>Budha</option>
+                </select>
+            </div>
+            <div><label for="">Biografi</label> : <textarea cols="30" rows="10"></textarea></div>
+            <div><label for="">Foto</label> : <img src="/media/logo1.jpg" alt="" width="250"></div>
+            <div><label for="">Audio</label> : <audio src="/media/sample.mp3" controls></audio></div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
